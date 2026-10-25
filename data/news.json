@@ -1,0 +1,108 @@
+[
+  {
+    "id": 12,
+    "date": "2026.10.18",
+    "category": "Info",
+    "title": "オフィシャルサイトをオープンしました",
+    "body": "素二愛のオフィシャルサイトをオープンしました。\nライブ情報や最新のお知らせはこちらでお届けしていきます。\n\nGALLERYでは「ネイルのうた」のMusic Videoもご覧いただけます。\nこれからもどうぞよろしくお願いいたします。",
+    "image": "images/kv-poster.jpg"
+  },
+  {
+    "id": 11,
+    "date": "2026.10.16",
+    "category": "Live",
+    "title": "12月20日（日）「Sonia Christmas Live 2026 -Ribbon-」開催決定",
+    "body": "12月20日（日）、恵比寿 SAMPLE GARDENにてクリスマスライブ「Sonia Christmas Live 2026 -Ribbon-」の開催が決定しました。\n\n今年最後のワンマンライブです。冬の新曲も初披露予定。\nどこかにリボンを身につけて、ぜひ遊びに来てください。\n\nチケットの詳細はLIVEページをご確認ください。",
+    "links": [
+      {
+        "label": "Live detail",
+        "url": "live/detail/?id=4"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "date": "2026.10.12",
+    "category": "Media",
+    "title": "10月25日（日）放送 TOKYO SAMPLE FM「Midnight Lounge」にゲスト出演",
+    "body": "TOKYO SAMPLE FM「Midnight Lounge」にゲスト出演します。\n「ネイルのうた」の制作秘話や、ルーツについてたっぷりお話ししています。\n\n放送日時：2026年10月25日（日）24:00〜25:00\n※radikoのタイムフリーでもお聴きいただけます。"
+  },
+  {
+    "id": 9,
+    "date": "2026.10.10",
+    "category": "Live",
+    "title": "11月14日（土）1st One-man Live「Night Bloom」チケット一般発売スタート",
+    "body": "11月14日（土）開催の1st One-man Live「Night Bloom」のチケット一般発売がスタートしました。\n\n販売期間：2026年10月10日（土）12:00〜11月13日（金）23:59\n※予定枚数に達し次第、販売終了となります。",
+    "links": [
+      {
+        "label": "Live detail",
+        "url": "live/detail/?id=1"
+      },
+      {
+        "label": "Buy ticket",
+        "url": "https://example.com/"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "date": "2026.10.05",
+    "category": "Goods",
+    "title": "「Night Bloom」オフィシャルグッズのラインナップを公開",
+    "body": "11月14日（土）開催の1st One-man Live「Night Bloom」にて販売するオフィシャルグッズのラインナップを公開しました。\n\n・Night Bloom Tシャツ（Black / Lavender）¥4,500\n・ネイルチップ型アクリルキーホルダー ¥1,200\n・ランダムトレーディングカード（全12種）¥500\n・ツアートートバッグ ¥3,000\n\n販売開始時間は当日会場にてご案内いたします。"
+  },
+  {
+    "id": 7,
+    "date": "2026.09.28",
+    "category": "Media",
+    "title": "ファッション誌「SAMPLE MAGAZINE」11月号にインタビュー＆グラビアが掲載",
+    "body": "10月28日（水）発売のファッション誌「SAMPLE MAGAZINE」11月号に、素二愛のインタビューとグラビアが掲載されます。\n\n「甘さと強さ」をテーマにした撮り下ろしカットを全6ページでお届けします。ぜひお手に取ってご覧ください。"
+  },
+  {
+    "id": 6,
+    "date": "2026.09.25",
+    "category": "Info",
+    "title": "Birthday Live 2026 ご来場ありがとうございました"
+  },
+  {
+    "id": 5,
+    "date": "2026.09.10",
+    "category": "Release",
+    "title": "Digital Single「ネイルのうた」配信スタート",
+    "url": "https://www.youtube.com/channel/UCf7-5qd9nNde2EbkA1S9MgQ"
+  },
+  {
+    "id": 4,
+    "date": "2026.09.10",
+    "category": "Release",
+    "title": "「ネイルのうた」Music Video公開",
+    "link": "#gallery"
+  },
+  {
+    "id": 3,
+    "date": "2026.08.30",
+    "category": "Live",
+    "title": "「SAMPLE FES 2026 Winter」大阪公演への出演が決定",
+    "body": "「SAMPLE FES 2026 Winter」大阪公演への出演が決定しました。\n\n出演日：2026年12月6日（日）\n会場：Osaka SAMPLE ARENA\n\nタイムテーブルは後日発表となります。",
+    "links": [
+      {
+        "label": "Live detail",
+        "url": "live/detail/?id=3"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "date": "2026.08.20",
+    "category": "Media",
+    "title": "TikTokフォロワー10万人突破のお知らせ",
+    "body": "TikTokのフォロワーが10万人を突破しました。\nいつも応援してくださる皆さま、本当にありがとうございます。\n\nこれからも楽しいコンテンツをたくさんお届けしていきます。"
+  },
+  {
+    "id": 1,
+    "date": "2026.07.30",
+    "category": "Media",
+    "title": "Web番組「SAMPLE TALK」#24 に出演しました",
+    "url": "https://www.youtube.com/channel/UCf7-5qd9nNde2EbkA1S9MgQ"
+  }
+]

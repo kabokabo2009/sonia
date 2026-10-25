@@ -1,0 +1,65 @@
+[
+  {
+    "type": "movie",
+    "category": "Music Video",
+    "title": "ネイルのうた (Music Video)",
+    "youtube": "",
+    "video": "movie/nail-no-uta.mp4",
+    "thumb": "images/gallery/nail-thumb.jpg"
+  },
+  {
+    "type": "photo",
+    "category": "Artist Photo",
+    "title": "Artist Photo 2026",
+    "src": "images/gallery/photo-01.webp",
+    "images": [
+      "images/gallery/photo-01.webp",
+      "images/gallery/photo-03.webp",
+      "images/gallery/photo-05.webp"
+    ]
+  },
+  {
+    "type": "photo",
+    "category": "Off Shot",
+    "title": "Off Shot",
+    "src": "images/gallery/photo-02.webp"
+  },
+  {
+    "type": "movie",
+    "category": "Live",
+    "title": "Live Digest 2026",
+    "youtube": "",
+    "thumb": "images/gallery/movie-02.webp"
+  },
+  {
+    "type": "photo",
+    "category": "Media",
+    "title": "SAMPLE MAGAZINE",
+    "src": "images/gallery/photo-03.webp"
+  },
+  {
+    "type": "photo",
+    "category": "Off Shot",
+    "title": "Studio",
+    "src": "images/gallery/photo-04.webp"
+  },
+  {
+    "type": "movie",
+    "category": "Making",
+    "title": "Behind the Scenes",
+    "youtube": "",
+    "thumb": "images/gallery/movie-03.webp"
+  },
+  {
+    "type": "photo",
+    "category": "Live",
+    "title": "Birthday Live",
+    "src": "images/gallery/photo-05.webp"
+  },
+  {
+    "type": "photo",
+    "category": "Off Shot",
+    "title": "Tokyo Night",
+    "src": "images/gallery/photo-06.webp"
+  }
+]
