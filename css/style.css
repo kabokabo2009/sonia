@@ -142,8 +142,6 @@ em {
   text-transform: uppercase;
 }
 
-.logo,
-.loader-logo,
 .mv-logo-en,
 .footer-logo,
 .profile-name span {
@@ -224,7 +222,8 @@ body.is-ready .loader {
 }
 
 .loader-logo {
-  font-size: 72px;
+  width: 96px;
+  height: 96px;
   opacity: 0;
   animation: fade 1.2s var(--ease) 0.1s forwards;
 }
@@ -384,8 +383,12 @@ body.is-ready .loader {
 
 .logo {
   margin-right: auto;
-  font-size: 40px;
-  color: var(--violet);
+}
+
+.logo img {
+  display: block;
+  width: 48px;
+  height: 48px;
 }
 
 .header-sns {
@@ -1929,8 +1932,9 @@ a.news-link:hover .news-arrow {
     --fs-m: 14px;
   }
 
-  .logo {
-    font-size: 32px;
+  .logo img {
+    width: 40px;
+    height: 40px;
   }
 
   .header-sns {
