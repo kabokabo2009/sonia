@@ -1,12 +1,10 @@
 'use strict';
 
 (() => {
-  const { $, pad, clamp, reduced, splitChars } = window.site;
+  const { $, pad, clamp, reduced } = window.site;
   const body = document.body;
   const mv = $('.mv');
   const kv = $('.mv-video');
-
-  splitChars($('.mv-logo-en'));
 
   (() => {
     const count = $('.js-count');
@@ -42,26 +40,33 @@
     let stars = [];
     let visible = true;
 
+    const create = () => {
+      const z = Math.random() ** 1.7;
+      return {
+        x: Math.random() * w,
+        y: Math.random() * h,
+        z,
+        r: 0.4 + z * 1.7,
+        tw: Math.random() * Math.PI * 2,
+        spark: z > 0.7 && Math.random() > 0.4,
+        c: Math.random() > 0.5 ? colors[0] : colors[1 + Math.floor(Math.random() * 3)]
+      };
+    };
+
     const resize = () => {
       const dpr = Math.min(devicePixelRatio || 1, 2);
-      w = canvas.clientWidth;
-      h = canvas.clientHeight;
-      canvas.width = w * dpr;
-      canvas.height = h * dpr;
-      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      const nw = canvas.clientWidth;
+      const nh = canvas.clientHeight;
+      if (!nw || !nh) return;
+      if (w && h) stars.forEach(s => { s.x *= nw / w; s.y *= nh / h; });
+      w = nw;
+      h = nh;
+      canvas.width = Math.round(w * dpr);
+      canvas.height = Math.round(h * dpr);
+      ctx.setTransform(canvas.width / w, 0, 0, canvas.height / h, 0, 0);
       const n = Math.round(clamp(w * h / 8000, 60, 200));
-      stars = Array.from({ length: n }, () => {
-        const z = Math.random() ** 1.7;
-        return {
-          x: Math.random() * w,
-          y: Math.random() * h,
-          z,
-          r: 0.4 + z * 1.7,
-          tw: Math.random() * Math.PI * 2,
-          spark: z > 0.7 && Math.random() > 0.4,
-          c: Math.random() > 0.5 ? colors[0] : colors[1 + Math.floor(Math.random() * 3)]
-        };
-      });
+      while (stars.length < n) stars.push(create());
+      stars.length = n;
     };
 
     const spark = (x, y, r) => {
@@ -96,7 +101,7 @@
 
     new IntersectionObserver(([e]) => { visible = e.isIntersecting; }).observe(mv);
     resize();
-    addEventListener('resize', resize);
+    new ResizeObserver(resize).observe(canvas);
     return { draw, isVisible: () => visible };
   })();
 

@@ -9,7 +9,6 @@
     el.setAttribute('aria-label', str);
     el.innerHTML = [...str].map((c, i) => `<span class="char" aria-hidden="true" style="--i:${i}">${esc(c)}</span>`).join('');
   };
-  window.site.splitChars = splitChars;
   $$('[data-split]').forEach(splitChars);
   watch($$('[data-split], [data-reveal], .ruler'));
 
